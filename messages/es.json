@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "title": "Double R Handyman Service — Servicios de Mantenimiento en Hyde Park y Chicago",
+    "description": "Servicios de mantenimiento confiables y eficientes en Hyde Park y vecindarios cercanos de Chicago. Reparaciones, instalaciones, plomería, electricidad, pintura y más."
+  },
+  "nav": {
+    "services": "Servicios",
+    "about": "Nosotros",
+    "whyUs": "¿Por Qué Elegirnos?",
+    "contact": "Contacto",
+    "requestQuote": "Solicitar Cotización"
+  },
+  "hero": {
+    "headline": "Su equipo de mantenimiento de confianza.",
+    "subheadline": "Soluciones confiables, eficientes y de alta calidad para el mantenimiento de su hogar o negocio.",
+    "cta": "Solicitar Cotización",
+    "ctaSecondary": "Ver Servicios"
+  },
+  "services": {
+    "heading": "Nuestros Servicios",
+    "generalRepairs": {
+      "title": "REPARACIONES GENERALES",
+      "items": [
+        "Reparación de puertas, cerraduras y bisagras",
+        "Reparación de paneles de yeso (agujeros, grietas, daños)",
+        "Ajustes de gabinetes y muebles",
+        "Reemplazo de accesorios dañados"
+      ]
+    },
+    "installations": {
+      "title": "INSTALACIONES",
+      "items": [
+        "Montaje de TV en pared",
+        "Instalación de cortinas, persianas y estantes",
+        "Ensamblaje de muebles (IKEA, etc.)",
+        "Instalación de ventiladores de techo"
+      ]
+    },
+    "plumbing": {
+      "title": "PLOMERÍA BÁSICA",
+      "items": [
+        "Reparación de fugas menores",
+        "Reemplazo de grifos y accesorios",
+        "Destapado simple de desagües",
+        "Instalación de inodoros y lavabos"
+      ]
+    },
+    "electrical": {
+      "title": "ELECTRICIDAD BÁSICA",
+      "items": [
+        "Reemplazo de interruptores y tomacorrientes",
+        "Instalación de lámparas y luminarias",
+        "Revisiones básicas de cableado"
+      ]
+    },
+    "painting": {
+      "title": "PINTURA Y ACABADOS",
+      "items": [
+        "Pintura interior y exterior",
+        "Retoques de pintura",
+        "Sellado de grietas y juntas"
+      ]
+    },
+    "maintenance": {
+      "title": "MANTENIMIENTO DEL HOGAR",
+      "items": [
+        "Limpieza de canaletas",
+        "Lavado a presión",
+        "Reparación de cercas",
+        "Trabajos básicos de jardín"
+      ]
+    },
+    "carpentry": {
+      "title": "CARPINTERÍA BÁSICA",
+      "items": [
+        "Instalación y reparación de estantes",
+        "Ajustes de puertas y marcos",
+        "Pequeños proyectos de madera"
+      ]
+    }
+  },
+  "about": {
+    "heading": "Sobre Nosotros",
+    "para1": "Double R Handyman Service es el equipo de dos personas formado por Luigi Ramos y Jesus Robain. \"Double R\" representa la inicial compartida de nuestros apellidos, comprometidos a brindar un servicio confiable y profesional.",
+    "para2": "Nos enorgullecemos de cada trabajo, grande o pequeño. Nuestro enfoque es simple: llegar a tiempo, comunicarnos claramente y entregar un trabajo de calidad que perdure. Tratamos su hogar como el nuestro.",
+    "photoPlaceholder": "Foto del equipo próximamente"
+  },
+  "whyUs": {
+    "heading": "¿Por Qué Elegirnos?",
+    "props": [
+      {
+        "title": "Equipo de dos personas, un solo punto de contacto.",
+        "description": "No tendrá que lidiar con un equipo grande."
+      },
+      {
+        "title": "Calidad que perdura.",
+        "description": "Hacemos el trabajo bien desde la primera vez."
+      },
+      {
+        "title": "Precios honestos y transparentes.",
+        "description": "Sin cargos sorpresa."
+      },
+      {
+        "title": "Respuesta rápida.",
+        "description": "Cotizaciones en menos de 24 horas."
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Solicitar Cotización",
+    "name": "Nombre Completo",
+    "namePlaceholder": "Su nombre completo",
+    "email": "Correo Electrónico",
+    "emailPlaceholder": "correo@ejemplo.com",
+    "phone": "Teléfono",
+    "phonePlaceholder": "(555) 123-4567",
+    "service": "Servicio Necesitado",
+    "servicePlaceholder": "Seleccione un servicio",
+    "serviceOther": "Otro",
+    "address": "Dirección del Proyecto o Código Postal",
+    "addressPlaceholder": "Dirección o código postal (opcional)",
+    "description": "Descripción del Proyecto",
+    "descriptionPlaceholder": "Cuéntenos sobre su proyecto...",
+    "submit": "Enviar Solicitud",
+    "submitting": "Enviando...",
+    "success": "Gracias — le responderemos dentro de las próximas 24 horas.",
+    "error": "Algo salió mal. Intente de nuevo o llámenos directamente.",
+    "required": "Este campo es obligatorio",
+    "invalidEmail": "Por favor ingrese un correo electrónico válido",
+    "infoHeading": "Contáctenos",
+    "phoneNumber": "+1 (872) 818-3745",
+    "emailAddress": "doublerhandymanservices@gmail.com",
+    "serviceArea": "Sirviendo Hyde Park y vecindarios cercanos de Chicago",
+    "hours": "Lunes – Viernes, 8:00 AM – 6:00 PM"
+  },
+  "footer": {
+    "tagline": "Soluciones confiables, eficientes y de alta calidad para el mantenimiento de su hogar o negocio.",
+    "copyright": "© 2026 Double R Handyman Service. Todos los derechos reservados."
+  }
+}

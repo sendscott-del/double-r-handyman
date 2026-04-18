@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "title": "Double R Handyman Service — Hyde Park & Chicago Handyman",
+    "description": "Reliable, efficient handyman services in Hyde Park and nearby Chicago neighborhoods. Repairs, installations, plumbing, electrical, painting, and more."
+  },
+  "nav": {
+    "services": "Services",
+    "about": "About",
+    "whyUs": "Why Choose Us",
+    "contact": "Contact",
+    "requestQuote": "Request a Quote"
+  },
+  "hero": {
+    "headline": "Your trusted handyman team.",
+    "subheadline": "Reliable, efficient, and high-quality solutions for your home or business maintenance needs.",
+    "cta": "Request a Quote",
+    "ctaSecondary": "See Services"
+  },
+  "services": {
+    "heading": "Our Services",
+    "generalRepairs": {
+      "title": "GENERAL REPAIRS",
+      "items": [
+        "Door, lock, and hinge repairs",
+        "Drywall repair (holes, cracks, damage)",
+        "Cabinet and furniture adjustments",
+        "Replacement of damaged fixtures"
+      ]
+    },
+    "installations": {
+      "title": "INSTALLATIONS",
+      "items": [
+        "TV wall mounting",
+        "Curtain, blinds, and shelf installation",
+        "Furniture assembly (IKEA, etc.)",
+        "Ceiling fan installation"
+      ]
+    },
+    "plumbing": {
+      "title": "BASIC PLUMBING",
+      "items": [
+        "Minor leak repairs",
+        "Faucet and fixture replacement",
+        "Simple drain unclogging",
+        "Toilet and sink installation"
+      ]
+    },
+    "electrical": {
+      "title": "BASIC ELECTRICAL",
+      "items": [
+        "Switch and outlet replacement",
+        "Light fixture installation",
+        "Basic wiring checks"
+      ]
+    },
+    "painting": {
+      "title": "PAINTING & FINISHING",
+      "items": [
+        "Interior and exterior painting",
+        "Paint touch-ups",
+        "Crack and joint sealing"
+      ]
+    },
+    "maintenance": {
+      "title": "HOME MAINTENANCE",
+      "items": [
+        "Gutter cleaning",
+        "Pressure washing",
+        "Fence repairs",
+        "Basic yard work"
+      ]
+    },
+    "carpentry": {
+      "title": "BASIC CARPENTRY",
+      "items": [
+        "Shelf installation and repair",
+        "Door and frame adjustments",
+        "Small wood projects"
+      ]
+    }
+  },
+  "about": {
+    "heading": "About Us",
+    "para1": "Double R Handyman Service is the two-person team of Luigi Ramos and Jesus Robain. \"Double R\" represents the shared last name initial of our two-person team, committed to delivering dependable and professional service.",
+    "para2": "We take pride in every job — big or small. Our approach is simple: show up on time, communicate clearly, and deliver quality work that lasts. We treat your home like our own.",
+    "photoPlaceholder": "Team photo coming soon"
+  },
+  "whyUs": {
+    "heading": "Why Choose Us",
+    "props": [
+      {
+        "title": "Two-person team, one point of contact.",
+        "description": "You're never juggling a big crew."
+      },
+      {
+        "title": "Quality that lasts.",
+        "description": "We do the job right the first time."
+      },
+      {
+        "title": "Honest, upfront pricing.",
+        "description": "No surprise line items."
+      },
+      {
+        "title": "Fast response.",
+        "description": "Quotes returned within 24 hours."
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Request a Quote",
+    "name": "Full Name",
+    "namePlaceholder": "Your full name",
+    "email": "Email",
+    "emailPlaceholder": "you@example.com",
+    "phone": "Phone",
+    "phonePlaceholder": "(555) 123-4567",
+    "service": "Service Needed",
+    "servicePlaceholder": "Select a service",
+    "serviceOther": "Other",
+    "address": "Project Address or ZIP Code",
+    "addressPlaceholder": "Address or ZIP (optional)",
+    "description": "Project Description",
+    "descriptionPlaceholder": "Tell us about your project...",
+    "submit": "Send Request",
+    "submitting": "Sending...",
+    "success": "Thanks — we'll get back to you within 24 hours.",
+    "error": "Something went wrong. Please try again or call us directly.",
+    "required": "This field is required",
+    "invalidEmail": "Please enter a valid email address",
+    "infoHeading": "Get in Touch",
+    "phoneNumber": "+1 (872) 818-3745",
+    "emailAddress": "doublerhandymanservices@gmail.com",
+    "serviceArea": "Serving Hyde Park and nearby Chicago neighborhoods",
+    "hours": "Monday – Friday, 8:00 AM – 6:00 PM"
+  },
+  "footer": {
+    "tagline": "Reliable, efficient, and high-quality solutions for your home or business maintenance needs.",
+    "copyright": "© 2026 Double R Handyman Service. All rights reserved."
+  }
+}
