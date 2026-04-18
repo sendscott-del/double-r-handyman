@@ -34,6 +34,7 @@ export default function Contact() {
   const [submitting, setSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState("");
+  const [service, setService] = useState<string | null>(null);
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -42,6 +43,9 @@ export default function Contact() {
 
     const form = e.currentTarget;
     const formData = new FormData(form);
+    if (service) {
+      formData.set("service", service);
+    }
 
     try {
       const res = await fetch(FORMSPREE_URL, {
@@ -118,9 +122,14 @@ export default function Contact() {
                     />
                   </div>
                   <div className="space-y-2">
-                    <Label htmlFor="service">{t("service")} *</Label>
-                    <Select name="service" required>
-                      <SelectTrigger id="service">
+                    <Label>{t("service")} *</Label>
+                    <Select
+                      name="service"
+                      value={service}
+                      onValueChange={(val) => setService(val)}
+                      required
+                    >
+                      <SelectTrigger>
                         <SelectValue placeholder={t("servicePlaceholder")} />
                       </SelectTrigger>
                       <SelectContent>

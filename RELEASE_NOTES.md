@@ -1,5 +1,8 @@
 # Release Notes — Double R Handyman Service
 
+## v1.0.2 — 2026-04-18
+- Fixed contact form submission — Select value now properly tracked and sent to Formspree
+
 ## v1.0.1 — 2026-04-18
 - Switched contact form from Resend to Formspree (no API key or env vars needed)
 - Removed server action and Resend dependency
