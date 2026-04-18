@@ -1,5 +1,9 @@
 # Release Notes — Double R Handyman Service
 
+## v1.0.1 — 2026-04-18
+- Switched contact form from Resend to Formspree (no API key or env vars needed)
+- Removed server action and Resend dependency
+
 ## v1.0.0 — 2026-04-18
 - Initial scaffold: Next.js 14 App Router + TypeScript + Tailwind CSS + shadcn/ui
 - Single-page marketing site with Hero, Services, About, Why Choose Us, Contact, and Footer sections

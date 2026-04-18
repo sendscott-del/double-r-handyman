@@ -14,7 +14,6 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Phone, Mail, MapPin, Clock, CheckCircle } from "lucide-react";
-import { sendQuote } from "@/app/actions/sendQuote";
 
 const serviceKeys = [
   "generalRepairs",
@@ -25,6 +24,8 @@ const serviceKeys = [
   "maintenance",
   "carpentry",
 ] as const;
+
+const FORMSPREE_URL = "https://formspree.io/f/xlganbkk";
 
 export default function Contact() {
   const t = useTranslations("contact");
@@ -42,23 +43,22 @@ export default function Contact() {
     const form = e.currentTarget;
     const formData = new FormData(form);
 
-    const data = {
-      name: formData.get("name") as string,
-      email: formData.get("email") as string,
-      phone: formData.get("phone") as string,
-      service: formData.get("service") as string,
-      address: formData.get("address") as string,
-      description: formData.get("description") as string,
-    };
+    try {
+      const res = await fetch(FORMSPREE_URL, {
+        method: "POST",
+        body: formData,
+        headers: { Accept: "application/json" },
+      });
 
-    const result = await sendQuote(data);
-
-    setSubmitting(false);
-
-    if (result.success) {
-      setSubmitted(true);
-    } else {
-      setError(result.error || t("error"));
+      if (res.ok) {
+        setSubmitted(true);
+      } else {
+        setError(t("error"));
+      }
+    } catch {
+      setError(t("error"));
+    } finally {
+      setSubmitting(false);
     }
   }
 
